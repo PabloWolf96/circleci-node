@@ -1,0 +1,8 @@
+{
+  "name": "circleci-node",
+  "version": "1.0.0",
+  "description": "a small project to learn how to use circleci",
+  "main": "index.js",
+  "author": "Pablowolf96",
+  "license": "MIT"
+}
