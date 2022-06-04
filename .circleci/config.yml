@@ -9,4 +9,9 @@ jobs:
       - image: cimg/node:18.2.0
     steps:
       - checkout
-      - run: node --version
+      - run:
+        name: install dependencies
+        command: yarn install
+      - run:
+        name: test
+        command: yarn test
